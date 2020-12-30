@@ -1,0 +1,119 @@
+header, body {
+    background-color: #C98920;
+  }
+  #header-img {
+    width: 5%;
+  }
+  
+  #nav-bar {
+    display: float;
+    float: right;
+    font-size: 25px;
+    padding-top: 30px;
+  }
+  
+  header {
+    top: 0; 
+    position: fixed;
+  }
+  
+  #tea-shop {
+    float: right;
+    padding-top: 10%;
+    width: 30%;
+  }
+  
+  #about{
+    padding-top: 10%;
+    width: 50%;
+    padding-left: 5%;
+  }
+  
+  #how-it-works, #form {
+    display: flex;
+    justify-content:center;
+  }
+  
+  #subscriptions {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  #survey {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .tea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    border: 1px solid #000;
+    border-radius: 3px;
+  }
+  
+  .tea > .level {
+    background-color: #532A3A;
+    color: white;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  
+  .tea > button {
+    border: 0;
+    margin: 15px 0;
+    background-color: #76913C;
+    font-weight: 400;
+  }
+  
+  .tea > button:hover {
+    background-color: #006400;
+    transition: background-color 1s;
+  }
+  
+  @media (max-width: 800px) {
+    #tea{
+      flex-direction: column;
+    }
+    .subscriptions {
+      max-width: 300px;
+      width: 100%;
+      margin: 0 auto;
+      margin-bottom: 10px;
+    }
+  }
+  
+  .container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  #how-it-works {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #532A3A;
+  }
+  
+  
+  #subscriptions {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  #enter-email {
+  /*   display: flex;
+    justify-content: center; */
+    text-align: center;
+    padding-top: 200px;
+  }
+  
